@@ -6,5 +6,3 @@ class punto ():
             self.x = 0
         if self.y is None:
             self.y = 0
-            
-    
