@@ -19,7 +19,9 @@ class punto ():
             return "Cuadrante 4"
         elif self.x == 0 and self.y != 0:
             return "Eje Y"
-        elif self.x != 0 and self.y == 0:
+        elif self.y == 0 and self.x != 0:
             return "Eje X"
         else:
             return "Origen"
+def vector(self, otro_punto):
+    return (otro_punto.x - self.x, otro_punto.y - self.y)
